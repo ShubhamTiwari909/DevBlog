@@ -1,7 +1,5 @@
-import React from 'react'
 import About from '@/Components/About'
-function about() {
-
+function About() {
   return (
     <>
       <About />
@@ -9,4 +7,4 @@ function about() {
   )
 }
 
-export default about
+export default About
