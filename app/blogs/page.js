@@ -4,7 +4,7 @@ import { useState } from 'react'
 import Blogs from "../../Components/Blogs"
 import Pagination from '@/Components/Pagination'
 
-function Blogs() {
+function BlogsPage() {
   const [startIndex,setStartIndex] = useState(1)
   const [finalPage,setFinalPage] = useState(Infinity)
 
@@ -18,4 +18,4 @@ function Blogs() {
   )
 }
 
-export default Blogs
+export default BlogsPage

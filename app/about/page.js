@@ -1,5 +1,5 @@
 import About from '@/Components/About'
-function About() {
+function AboutPage() {
   return (
     <>
       <About />
@@ -7,4 +7,4 @@ function About() {
   )
 }
 
-export default About
+export default AboutPage
