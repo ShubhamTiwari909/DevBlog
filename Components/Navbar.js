@@ -7,7 +7,7 @@ export default function Navbar() {
     const [navbarOpen, setNavbarOpen] = useState(false);
     return (
         <>
-            <nav className="w-full flex flex-wrap items-center justify-between px-2 py-3 bg-slate-900 fixed top-0 z-10 min-h-65">
+            <nav className="w-full flex flex-wrap items-center justify-between px-2 py-4 bg-slate-900 fixed top-0 z-10 min-h-65">
                 <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
                     <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
                         <a
